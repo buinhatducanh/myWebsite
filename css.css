@@ -1,0 +1,672 @@
+body{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contain{
+    margin: auto;
+    height: 1500px;
+    width: 95%;
+    background-color: white;
+}
+
+.time{
+    color: rgb(255, 0, 0);
+    float: left;
+    margin: 0 10px 0 10px;
+}
+.time-under-header{
+    width: 100%;
+    height: 60px;
+    background-color:#0073aa;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+#clock{
+    width: 60%;
+    height: 70%;
+    background-color: #003751;
+    float: left;
+}
+#find{
+    width: 40%;
+    height: 70%;
+    float: right;
+    background-color:#53c7fd;
+}
+#find-input{
+    width: 70%;
+    margin-top: 0.5%;
+    margin-left: 5%;
+    height: 70%;
+    float: left;
+    font-size: larger;
+}
+#find-icon{
+    width: 7.4%;
+    margin-top: 0.5%;
+    background-color: #0088c7;
+    float: left;
+}
+.time-below-header{
+    width: 100%;
+    height: 50px;
+    background-color: #0073aa;
+}
+header{
+    background-color: #53c7fd;
+    width: 100%;
+    height: 130px;
+    margin-bottom: 20px;
+}
+.header-div1{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.header-div1-img1{
+    width: 50%;
+    height: 80%;
+    margin: 10px;
+
+    border-radius: 100%;
+}
+.header-div2{
+    width: 70%;
+    margin: 0px 200px 0px 200px;
+    padding: 10px;
+}
+.header-div1-img1:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+.red-font{
+    color: red;
+}
+.art-text{
+    margin: auto;
+    font-size: 60px;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    background-color: #0073aa;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    text-align: center;
+    line-height: 100px;
+}
+footer{
+    height: 100px;
+    background-color: #a7e3ff;
+    font-size: large;
+    text-align: center;
+
+}
+footer>p{
+    padding: 20px;
+}
+
+
+.middle-slideshow{
+    padding: 5%;
+    background-color: #003751;
+    margin: 20px 0 10px 0;
+    width: 90%;
+    height: 500px;
+}
+
+.slideshow-dad{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.pause-slide{
+    font-size: 20px;
+    position: absolute;
+    width: 300px;
+    bottom: 10px;
+    left: 33%;
+    height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.3);
+}
+.pause-slide:hover {
+    background-color: black;
+    border-color: rgba(0, 0, 0, 0.3);
+    scale: 1.2;
+    cursor: pointer;
+}
+.ads{
+    margin: 0px -20px 0px 0px;
+    width: 300px;
+    height: 100%;
+    float: right;
+}
+.ads-content{
+    width: 100%;
+    height: 100%;
+    background-color:#0073aa;
+    color: white;
+    line-height: 30px;
+}
+.ads-below{
+    background-color:#a7e3ff;
+    width: 100%;
+    height: 300px;
+}
+.poster2{
+    width: 30%;
+    float: left;
+    margin: auto;
+}
+.poster{
+   width: 300px;
+   height: 140px;
+}
+.shop-0{
+    background-color: #a7e3ff;
+    border-radius: 30px;
+    
+}
+.cost{
+    line-height: 0;
+    color: hsl(0, 100%, 50%);
+    font-weight: bold;
+    margin-left: 60px;
+    text-align: left;   
+}
+
+.left{
+
+    color: rgb(114, 255, 232);
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 60px;
+    height: 60px;
+    border: 5px;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 50px;
+    top: 200px;
+    left: 50px;
+
+    
+}
+.left:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+    scale: 1.2;
+    cursor: pointer;
+}
+.right{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 5px;
+    color: rgb(0, 255, 213);
+    border-color: rgb(0, 255, 213);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 50px;
+    top: 200px;
+    right: 50px;
+}
+.right:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.mid-content h1{
+
+    line-height: 100px;
+    color:white;
+    text-align: center;
+    text-shadow: 0px 0px 20px rgb(161, 153, 252);
+    font-weight: bold;
+}
+.table1{
+    width: 96%; 
+    margin: auto;
+    padding: 5px;
+    border-spacing: 20px;
+}
+.row-1 {
+    
+    width: 100%;
+    height: 80%;
+    
+}
+.col-1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -20px;
+    right: -20px
+
+}
+.col-2 {
+    
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+    border-color: rgb(255, 112, 112);
+    background-color: rgb(255, 112, 112);
+    border-radius: 5px;
+}
+.col-3 {
+    
+    color: rgb(255, 255, 255);
+    border-color: rgb(136, 136, 255);
+    background-color: rgb(136, 136, 255);
+    border-radius: 3px;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+.col-3:hover{
+    color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 255);
+    background-color: rgb(0, 0, 255);
+    scale: 1.2;
+    cursor: pointer;
+}
+.col-2:hover{
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    scale: 1.2;
+    cursor: pointer;
+}
+.tr1 td{
+position: relative;
+width: 20%;
+
+height: 280px;
+font-size: 20px;
+box-shadow: 0 0 20px rgb(161, 153, 252);
+color:  rgb(0, 0, 0);
+text-align: center;
+background-color: rgb(248, 248, 248);
+}
+
+.content-style{
+    width: 100%;
+}
+.mid-content{
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    background-color: #0073aa;
+}
+.col-4{
+    position: absolute;
+    bottom: 60px;
+    right: 10px;
+    width: 70px;
+
+}
+.cart-icon{
+    width: 60px;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    border-radius: 100%;
+    border: 5px solid rgb(220, 145, 48);
+}
+.cart-icon:hover{
+
+    scale: 1.2;
+}
+#gala-pro-apear{
+    position: fixed;
+    top: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    background-color:  rgba(0, 0, 0, 0.3);
+    display: none;
+}
+#gala-pro-apear.gala-pro-apear{
+    display: flex;
+    
+}
+#iphone-pro-apear{
+    position: fixed;
+    top: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    background-color:  rgba(0, 0, 0, 0.3);
+    display: none;
+}
+#iphone-pro-apear.iphone-pro-apear{
+    display: flex;
+}
+#vivo-pro-apear{
+    position: fixed;
+    top: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    background-color:  rgba(0, 0, 0, 0.3);
+    display: none;
+}
+#vivo-pro-apear.vivo-pro-apear{
+    display: flex;
+    
+}
+#oppo-pro-apear{
+    position: fixed;
+    top: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    background-color:  rgba(0, 0, 0, 0.3);
+    display: none;
+}
+#oppo-pro-apear.oppo-pro-apear{
+    display: flex;
+    
+}
+
+
+.turn-off{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 119, 119);
+    border-color: rgb(255, 119, 119);
+
+}
+.turn-off:hover{
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+#cart{
+    position: fixed;
+    top: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    background-color:  rgba(0, 0, 0, 0.3);
+    display: none;
+}
+#cart.cart-apear{
+    display: flex ;
+    
+}
+.turn-off-cart{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 134, 134);
+    color: aliceblue;
+    border-color: rgb(255, 134, 134);
+    width: 40px;
+    height: 40px;
+}
+.turn-off-cart:hover{
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+
+
+#gala-cart{
+    width: 22%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: 50px 0 0 30px;
+    display: none;
+    position: relative;
+}
+#gala-cart.cart-pro{
+    display: flex;
+}
+
+
+#vivo-cart{
+    margin: 50px 0 0 30px;
+    width: 22%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: none;
+}
+#vivo-cart.cart-pro{
+    display: flex;
+}
+
+#iphone-cart{
+    margin: 50px 0 0 30px;
+    width: 22%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: none;
+}
+#iphone-cart.cart-pro{
+    display: flex;
+}
+
+#oppo-cart{
+    width: 22%;
+    height: 80%;
+    background-color: rgb(251, 255, 253);
+    margin: 50px 0 0 30px;
+    display: none;
+    position: relative;
+}
+#oppo-cart.cart-pro{
+    display: flex;
+}
+#dad-cart{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+#cart-count{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(252, 78, 78);
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border-radius: 100%;
+}
+#cart-count-num{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+}
+.pro-cart{
+    width: 100%;
+    height: 70%;
+}
+.amount{
+ 
+    position: absolute;
+    bottom: 70px;
+    left: 80px;
+    width: 30%;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 77, 77);
+    border-color:rgb(255, 77, 77);
+}
+.calculator{
+        color: white;
+        position: absolute;
+        background-color: rgb(255, 77, 77);
+        bottom: -20px;
+        right: -20px;
+        width: 300px;
+        height: 60px;
+}
+h3{
+    float: left;
+    margin-left: 10px;
+}
+.count{
+    float: right;
+    font-size: 30px;
+    line-height: 60px;
+    margin-right: 5px;
+}
+.increase{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 70px;
+    right: 40px;
+    color: white;
+    background-color: rgb(255, 77, 77);
+    border-color:rgb(255, 77, 77);
+    cursor: pointer;
+}
+.decrease{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 70px;
+    left: 30px;
+    color: white;
+    background-color: rgb(255, 77, 77);
+    border-color:rgb(255, 77, 77);
+    cursor: pointer;
+}
+.pro-cal{
+    position: absolute;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    color: rgb(255, 0, 0);
+    bottom: 10px;
+    left: 20px;
+    font-weight: bold;
+    border: 1px solid red;
+    padding: 5px;
+    
+}
+.pro-cal>p {
+    text-align: center;
+    line-height: 0px;
+}
+span{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(255, 147, 147);
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+    line-height: 40px;
+    display: none;
+}
+
+#gala-cart:hover span{
+    display: block;
+}
+#vivo-cart:hover span{
+    display: block;
+}
+#iphone-cart:hover span{
+    display: block;
+}
+#oppo-cart:hover span{
+    display: block;
+}
+
+#buy-icon{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    background-color:rgb(255, 77, 77);
+    border-color: rgb(255, 77, 77);
+    bottom: 0;
+    right: 0;
+    bottom: -20px;
+    right: 300px;
+    cursor: pointer;
+}
+
+#form-buy{
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    height: 300px;
+    background-color:  rgb(255, 205, 205);
+    display: none;
+}
+#form-buy.form-apear{
+    display: flex ;
+    
+}
+
+
+
+.table-form{
+    position: absolute;
+    
+    margin: auto;
+    
+    background-color: #d1f0fe;
+    width: 100%;
+    height: 100%;
+}
+.form-turn-off{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 119, 119);
+    border-color: rgb(255, 119, 119);
+
+}
+.form-turn-off:hover{
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+@keyframes lighton {  from {background-color: #f1faff;}  to {background-color: #004362;}}/* Áp dụng animation vào phần tử */.art-text {background-color: #004362;  animation-name: lighton;  animation-duration: 10s;}
+@keyframes lightoff {  from {background-color: #004164;}  to {background-color: #53c7fd;}}/* Áp dụng animation vào phần tử */header {background-color: #53c7fd;  animation-name: lightoff;  animation-duration: 10s;}
+@keyframes bodylightturn {  from {background-color: #001e2e;}  to {background-color: #ffffff;}}/* Áp dụng animation vào phần tử */body {background-color: #feffff;  animation-name: bodylightturn;  animation-duration: 5s;}
+@keyframes midbodylightturn {  from {background-color: #001e2e;}  to {background-color: #ffffff;}}/* Áp dụng animation vào phần tử */.contain {background-color: #feffff;  animation-name: midbodylightturn;  animation-duration: 5s;}

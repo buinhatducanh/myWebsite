@@ -1,0 +1,136 @@
+
+.bon-1{
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    background-color: #a7e3ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-dad{
+    position: absolute;
+    top: 13px ;
+    left: 480px;
+}
+.icon-1{
+    margin-top: 8px;
+    
+    height: 20px;
+}
+.header{
+    width: 100%;
+    height: 40px;
+}
+.header p{
+    line-height: 30px;
+    margin-left: 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+.row-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.tb-0 td{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+
+}
+.tb-1{
+    border-spacing: 20px;
+}
+.tb-1 td{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+.main-product{
+    width: 100%;
+    height: 100%;
+}
+.ex-product{
+    width: 100%;
+    height: 100%;
+    
+}
+.arrow-up{
+    width: 50px;
+    position:absolute;
+    top: 30px;
+    left: 30%;
+    display: none;
+}
+.row-2:hover .arrow-up{
+    display: block;
+}
+.pon-1{
+    height: 200px;
+    font-size: large;
+    padding: 15px;
+    background-color: rgb(200, 255, 246);
+}
+h1{
+    line-height: 0;
+    
+}
+p{
+    line-height: 20px;
+}
+.em-product{
+    width: 100%;
+    height: 100%;
+}
+.tb-2{
+    border-spacing: 5px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-top: -100px;
+}
+.tb-2 td{
+    width: 200px;
+    height: 20px;
+}
+.bt-1{
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    border-color: rgb(96, 152, 255);
+    background-color:rgb(47, 120, 255); 
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+
+}
+.bt-1:hover {
+    color: rgb(255, 255, 255);
+    background-color:  rgb(0, 89, 255); 
+    font-weight: bold;
+    cursor: pointer;
+    scale: 1.2;
+}
+.bt-2{
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+    border-color: rgb(255, 125, 125);
+    background-color: rgb(255, 71, 71);
+    position: absolute;
+    bottom: 30px;
+    right: 280px;
+
+}
+
+.bt-2:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(254, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    scale: 1.2;
+}

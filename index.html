@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="product.css">
+    <title>Đức Anh Store</title>
+</head>
+<script src="product.js">
+
+</script>
+
+<body onload="loadAnh()">
+
+
+
+
+    <script src="product.js"></script>
+    </script>
+    <div class="contain">
+        <div class="time-under-header">
+
+            <div id="clock">
+                <p style="float: left; color: white; margin-left: 30px;">CHỈ CÒN </p>
+                <div class="time">
+                    <div id="ngay" class="thoigian">5</div>Ngày
+                </div>
+                <div class="time">
+                    <div id="gio" class="thoigian">6</div>Giờ
+                </div>
+                <div class="time">
+                    <div id="phut" class="thoigian">7</div>Phút
+                </div>
+                <div class="time">
+                    <div id="giay" class="thoigian">8</div>Giây
+                </div>
+                <p style="float: left;color: white;">TRƯỚC KHI HẾT SỰ KIỆN
+                <p style="color: red; float: left; margin-left: 10px;">2023 COUNT DOWN</p>
+                </p>
+            </div>
+            <div id="find">
+
+                <input type="text" name="Tìm Kiếm" placeholder="---Mời nhập thông tin tìm kiếm---" id="find-input">
+                <input type="image" src="find-icon.png" id="find-icon" onclick="troll()">
+            </div>
+        </div>
+        <header>
+            <div class="header-div1">
+                <input type="image" src="login logo.png" class="header-div1-img1" onclick="formbuy()">
+            </div>
+            <div class="header-div2">
+                <p class="art-text">ĐỨC ANH PHONE STORE</p>
+            </div>
+        </header>
+        <div class="time-below-header">
+
+        </div>
+        <div class="middle-slideshow">
+            <div class="slideshow-dad">
+                <img src="1.jpg" id="slideshow" width="100%" height="100%">
+
+
+                <input type="button" value="<" onclick="back()" class="left">
+                <input type="button" value=">" onclick="next()" class="right">
+                <input type="button" value="PAUSE/PLAY" onclick="pause()" class="pause-slide">
+            </div>
+            <div class="ads">
+                <div class="ads-content">
+                    <div style="float: left; margin-left: 5px;">CÁC ƯU ĐÃI </div>
+                    <div class="red-font" style="float: left; margin-left: 5px;">HOT</div>
+                    <div style="float: left; margin-left: 5px;">TRONG SỰ KIỆN</div>
+                    <div class="red-font" style="margin-left: 5px; text-align: center;">2023 COUNT DOWN</div>
+
+                    <img src="poster.png" class="poster">
+                    <img src="poster2.png" class="poster">
+                    <img src="poster3.png" class="poster">
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="shop-0">
+
+            <div class="content-style">
+                <div class="mid-content" style="border-radius: 30px 30px 0 0;">
+                    <h1> SẢN PHẨM </h1>
+                </div>
+            </div>
+            <table class="table1">
+                <tr class="tr1">
+                    <td>
+                        <img src="gala vàng hồng.jpg" class="row-1">
+                        <img src="new.png" class="col-1">
+                        <input type="button" class="col-2" value="MUA" onclick="cartadd('gala')">
+                        <input type="button" class="col-3" value="XEM" onclick="showpro('gala')">
+                        Galaxy S22
+                        <p class="cost">12.490.000 đ</p>
+
+                    </td>
+                    <td>
+                        <img src="vivo.jpg" class="row-1">
+                        <img src="new.png" class="col-1">
+                        <img src="baohanh.png" class="col-4">
+                        <input type="button" class="col-2" value="MUA" onclick="cartadd('vivo')">
+                        <input type="button" class="col-3" value="XEM" onclick="showpro('vivo')">
+                        Vivo P40
+                        <p class="cost">4.490.000 đ</p>
+
+                    </td>
+                    <td>
+                        <img src="iphone hồng.jpg" alt="" class="row-1">
+                        <img src="new.png" class="col-1">
+                        <img src="1doi1.png" class="col-4">
+                        <input type="button" class="col-2" value="MUA" onclick="cartadd('iphone')">
+                        <input type="button" class="col-3" value="XEM" onclick="showpro('iphone')">
+                        Iphone 14
+                        <p class="cost">33.590.000 đ</p>
+
+                    </td>
+                    <td>
+                        <img src="op tím.jpg" alt="" class="row-1">
+                        <img src="new.png" class="col-1">
+                        <img src="baohanh.png" class="col-4">
+                        <input type="button" class="col-2" value="MUA" onclick="cartadd('oppo')">
+                        <input type="button" class="col-3" value="XEM" onclick="showpro('oppo')">
+                        OPPO A57
+                        <p class="cost">4.690.000 đ</p>
+
+                    </td>
+                </tr>
+
+            </table>
+
+
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            © 2018. Công ty cổ phần ĐỨC ANH PHONE. GPDKKD: 0378443602 do sở KH & ĐT TP.HCM cấp ngày 02/01/2022. <br>
+            GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2022.
+            Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí Minh. <br> Điện thoại: 037 8443602. Email:
+            anhbndpc05737@gmail.com Chịu trách nhiệm nội dung: Bùi Nhật Đức Anh
+        </p>
+    </footer>
+
+
+
+
+
+    <div id="gala-pro-apear">
+        <input type="button" value="x" class="turn-off" onclick="offpro('gala')">
+
+        <div class="bon-1" id="bon-1">
+            <div class="header">
+                <div class="icon-dad">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                </div>
+                <div id="namephone">
+                    <p>Điện thoại Samsung Galaxy S22 Ultra 5G 128GB</p>
+                </div>
+            </div>
+            <table class="tb-0">
+                <tr>
+                    <td>
+                        <table class="tb-1">
+                            <tr>
+                                <td colspan="3" class="row-1">
+                                    <div class="sanpham">
+                                        <img src="gala vàng hồng.jpg" class="first-pro-pic">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="row-2">
+                                    <input type="image" src="gala xanh lục.jpg" alt="" class="ex-product"
+                                        onclick="changepro('gala',1)">
+                                    <input type="image" src="arrow-up.png" alt="" class="arrow-up"
+                                        onclick="changepro('gala',1)">
+                                </td>
+
+                                <td class="row-2">
+                                    <input type="image" src="gala đen.jpg" class="ex-product"
+                                        onclick="changepro('gala',2)">
+                                    <input type="image" src="arrow-up.png" alt="" class="arrow-up"
+                                        onclick="changepro('gala',2)">
+                                </td>
+                                <td class="row-2">
+                                    <input type="image" src="gala vàng hồng.jpg" alt="" class="ex-product "
+                                        onclick="changepro('gala',3)">
+                                    <input type="image" src="arrow-up.png" alt="" class="arrow-up"
+                                        onclick="changepro('gala',3)">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table class="tb-2">
+                            <tr>
+                                <td>Tên</td>
+                                <td>Samsung Galaxy S22 Ultra 5G 128GB</td>
+                            </tr>
+                            <tr>
+                                <td>Màn hình:</td>
+                                <td>Dynamic AMOLED 2X6.8"Quad HD+ (2K+)</td>
+                            </tr>
+                            <tr>
+                                <td>Hệ điều hành:</td>
+                                <td>Android 12</td>
+                            </tr>
+                            <tr>
+                                <td>Camera sau:</td>
+                                <td>Chính 108 MP & Phụ 12 MP, 10 MP, 10 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Camera trước:</td>
+                                <td>40 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Chip:</td>
+                                <td>Snapdragon 8 Gen 1</td>
+                            </tr>
+                            <tr>
+                                <td>RAM:</td>
+                                <td>8 GB</td>
+                            </tr>
+                            <tr>
+                                <td>Dung lượng lưu trữ:</td>
+                                <td>128 GB</td>
+                            </tr>
+                            <tr>
+                                <td>SIM:</td>
+                                <td>2 Nano SIM hoặc 1 Nano SIM + 1 eSIMHỗ trợ 5G</td>
+                            </tr>
+                            <tr>
+                                <td>Pin, Sạc:</td>
+                                <td>5000 mAh45 W</td>
+                            </tr>
+                            <tr>
+                                <td><button class="bt-2" type="submit" onclick="cartadd('gala')">Mua ngay chỉ với
+                                        12.490.000đ</button></td>
+                                <td><button class="bt-1" type="reset">Xem thêm cấu hình chi tiết ></button></td>
+                            </tr>
+                        </table>
+
+
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="vivo-pro-apear">
+        <input type="button" value="x" class="turn-off" onclick="offpro('vivo')">
+        <div class="bon-1" id="bon-1">
+            <div class="header">
+                <div class="icon-dad">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                </div>
+                <div id="namephone">
+                    <p>Cấu hình Điện thoại Vivo Y22s 4GB</p>
+                </div>
+            </div>
+            <table class="tb-0">
+                <tr>
+                    <td>
+                        <table class="tb-1">
+                            <tr>
+                                <td colspan="3" class="row-1">
+                                    <div class="sanpham">
+                                        <img src="vivo.jpg" class="first-pro-pic" width="383px" height="680px">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="row-2">
+                                    <input type="image" src="vivo.jpg" alt="" class="ex-product"
+                                        onclick="changepro('vivo',1)">
+                                    <input type="image" src="arrow-up.png" alt="" class="arrow-up"
+                                        onclick="changepro('vivo',1)">
+                                </td>
+
+                                <td class="row-2">
+                                    <input type="image" src="vivo xám.jpg" class="ex-product"
+                                        onclick="changepro('vivo',2)">
+                                    <input type="image" src="arrow-up.png" alt="" class="arrow-up"
+                                        onclick="changepro('vivo',2)">
+                                </td>
+                                <td class="row-2">
+                                    <input type="image" src="vivo đen.jpg" alt="" class="ex-product "
+                                        onclick="changepro('vivo',3)">
+                                    <input type="image" src="arrow-up.png" alt="" class="arrow-up"
+                                        onclick="changepro('vivo',3)">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table class="tb-2">
+                            <tr>
+                                <td>Tên</td>
+                                <td>Cấu hình Điện thoại Vivo Y22s 4GB</td>
+                            </tr>
+                            <tr>
+                                <td>Màn hình:</td>
+                                <td>IPS LCD6.55"HD+</td>
+                            </tr>
+                            <tr>
+                                <td>Hệ điều hành:</td>
+                                <td>Android 12</td>
+                            </tr>
+                            <tr>
+                                <td>Camera sau:</td>
+                                <td>Chính 50 MP & Phụ 2 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Camera trước:</td>
+                                <td>8 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Chip:</td>
+                                <td>Snapdragon 680</td>
+                            </tr>
+                            <tr>
+                                <td>RAM:</td>
+                                <td>4 GB</td>
+                            </tr>
+                            <tr>
+                                <td>Dung lượng lưu trữ:</td>
+                                <td>128 GB</td>
+                            </tr>
+                            <tr>
+                                <td>SIM:</td>
+                                <td>2 Nano SIM Hỗ trợ 4G</td>
+                            </tr>
+                            <tr>
+                                <td>Pin, Sạc:</td>
+                                <td>5000 m, Ah18 W</td>
+                            </tr>
+                            <tr>
+                                <td><button class="bt-2" type="submit" onclick="cartadd('vivo')">Mua ngay chỉ với
+                                        4.890.000₫</button></td>
+                                <td><button class="bt-1" type="reset">Xem thêm cấu hình chi tiết ></button></td>
+                            </tr>
+                        </table>
+
+
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="iphone-pro-apear">
+        <input type="button" value="x" class="turn-off" onclick="offpro('iphone')">
+        <div class="bon-1" id="bon-1">
+            <div class="header">
+                <div class="icon-dad">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                </div>
+                <div id="namephone">
+                    <p>Điện thoại iPhone 14 Pro Max 128GB</p>
+                </div>
+            </div>
+            <table class="tb-0">
+                <tr>
+                    <td>
+                        <table class="tb-1">
+                            <tr>
+                                <td colspan="3" class="row-1">
+                                    <div class="sanpham">
+                                        <img src="iphone hồng.jpg" class="first-pro-pic" width="383px" height="680px">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="row-2">
+                                    <input type="image" src="iphone hồng.jpg" alt="" class="ex-product"
+                                        onclick="changepro('iphone',1)">
+                                    <input type="image" src="arrow-up.png" alt="" class="arrow-up"
+                                        onclick="changepro('iphone',1)">
+                                </td>
+
+                                <td class="row-2">
+                                    <input type="image" src="iphone trắng.jpg" class="ex-product"
+                                        onclick="changepro('iphone',2)">
+                                    <input type="image" src="arrow-up.png" alt="" class="arrow-up"
+                                        onclick="changepro('iphone',2)">
+                                </td>
+                                <td class="row-2">
+                                    <input type="image" src="iphone đen.jpg" alt="" class="ex-product "
+                                        onclick="changepro('iphone',3)">
+                                    <input type="image" src="arrow-up.png" alt="" class="arrow-up"
+                                        onclick="changepro('iphone',3)">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table class="tb-2">
+                            <tr>
+                                <td>Tên</td>
+                                <td>Điện thoại iPhone 14 Pro Max 128GB</td>
+                            </tr>
+                            <tr>
+                                <td>Màn hình:</td>
+                                <td>OLED6.7"Super Retina XDR</td>
+                            </tr>
+                            <tr>
+                                <td>Hệ điều hành:</td>
+                                <td>iOS 16</td>
+                            </tr>
+                            <tr>
+                                <td>Camera sau:</td>
+                                <td>Chính 48 MP & Phụ 12 MP, 12 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Camera trước:</td>
+                                <td>12 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Chip:</td>
+                                <td>Apple A16 Bionic</td>
+                            </tr>
+                            <tr>
+                                <td>RAM:</td>
+                                <td>6 GB</td>
+                            </tr>
+                            <tr>
+                                <td>Dung lượng lưu trữ:</td>
+                                <td>128 GB</td>
+                            </tr>
+                            <tr>
+                                <td>SIM:</td>
+                                <td>1 Nano SIM & 1 eSIM, Hỗ trợ 5G</td>
+                            </tr>
+                            <tr>
+                                <td>Pin, Sạc:</td>
+                                <td>4323 m, Ah20 W</td>
+                            </tr>
+                            <tr>
+                                <td><button class="bt-2" type="submit" onclick="cartadd('iphone')">Mua ngay chỉ với
+                                        33.590.000₫</button></td>
+                                <td><button class="bt-1" type="reset">Xem thêm cấu hình chi tiết ></button></td>
+                            </tr>
+                        </table>
+
+
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+    <div id="oppo-pro-apear">
+        <input type="button" value="x" class="turn-off" onclick="offpro('oppo')">
+        <div class="bon-1" id="bon-1">
+            <div class="header">
+                <div class="icon-dad">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                    <img src="star-icon.png" class="icon-1">
+                </div>
+                <div id="namephone">
+                    <p>Điện thoại OPPO A57 128GB </p>
+                </div>
+            </div>
+            <table class="tb-0">
+                <tr>
+                    <td>
+                        <table class="tb-1">
+                            <tr>
+                                <td colspan="3" class="row-1">
+                                    <div class="sanpham">
+                                        <img src="op tím.jpg" class="first-pro-pic" width="383px" height="680px">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="row-2">
+                                    <input type="image" src="op tím.jpg" alt="" class="ex-product"
+                                        onclick="changepro('oppo',1)">
+                                    <input type="image" src="arrow-up.png" alt="" class="arrow-up"
+                                        onclick="changepro('oppo',1)">
+                                </td>
+
+                                <td class="row-2">
+                                    <input type="image" src="op vàng.jpg" class="ex-product"
+                                        onclick="changepro('oppo',2)">
+                                    <input type="image" src="arrow-up.png" alt="" class="arrow-up"
+                                        onclick="changepro('oppo',2)">
+                                </td>
+                                <td class="row-2">
+                                    <input type="image" src="op xám.jpg" alt="" class="ex-product "
+                                        onclick="changepro('oppo',3)">
+                                    <input type="image" src="arrow-up.png" alt="" class="arrow-up"
+                                        onclick="changepro('oppo',3)">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table class="tb-2">
+                            <tr>
+                                <td>Tên</td>
+                                <td>Điện thoại OPPO A57 128GB </td>
+                            </tr>
+                            <tr>
+                                <td>Màn hình:</td>
+                                <td>IPS LCD, 6.56", HD+</td>
+                            </tr>
+                            <tr>
+                                <td>Hệ điều hành:</td>
+                                <td>Android 12</td>
+                            </tr>
+                            <tr>
+                                <td>Camera sau:</td>
+                                <td>Chính 13 MP & Phụ 2 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Camera trước:</td>
+                                <td>8 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Chip:</td>
+                                <td>MediaTek Helio G35</td>
+                            </tr>
+                            <tr>
+                                <td>RAM:</td>
+                                <td>4 GB</td>
+                            </tr>
+                            <tr>
+                                <td>Dung lượng lưu trữ:</td>
+                                <td>128 GB</td>
+                            </tr>
+                            <tr>
+                                <td>SIM:</td>
+                                <td>2 Nano SIM, Hỗ trợ 4G</td>
+                            </tr>
+                            <tr>
+                                <td>Pin, Sạc:</td>
+                                <td>5000 m, Ah33 W</td>
+                            </tr>
+
+
+
+                        </table>
+                        <button class="bt-2" type="submit" onclick="cartadd('oppo')">Mua ngay chỉ với
+                            4.890.000₫</button>
+                        <button class="bt-1" type="reset">Xem thêm cấu hình chi tiết ></button>
+
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="dad-cart">
+        <input type="image" src="cart.png" class="cart-icon" onclick="cartopen()">
+        <div id="cart-count">
+            <div id="cart-count-num">
+                0
+            </div>
+        </div>
+    </div>
+    <div id="cart">
+        <button class="turn-off-cart" onclick="cartoff()">X</button>
+        <div id="gala-cart">
+            <img src="gala vàng hồng.jpg" class="pro-cart">
+            <input type="number" value="0" min="0" class="amount" id="gala-cart-pro" onchange="amount()">
+            <input type="button" class="increase" value="+" onclick="cartplus(0)">
+            <input type="button" class="decrease" value="-" onclick="cartderc(0)">
+            <div id="gala-cal" class="pro-cal">
+                <p>12.490.000/Sản Phẩm</p>
+
+            </div>
+            <span onclick="cartprooff(0)">X</span>
+        </div>
+        <div id="vivo-cart">
+            <img src="vivo xám.jpg" class="pro-cart">
+            <input type="number" value="0" min="0" class="amount" id="vivo-cart-pro" onchange="amount()">
+            <input type="button" class="increase" value="+" onclick="cartplus(1)">
+            <input type="button" class="decrease" value="-" onclick="cartderc(1)">
+            <div id="vivo-cal" class="pro-cal">
+                <p>4.490.000/Sản Phẩm</p>
+
+            </div>
+            <span onclick="cartprooff(1)">X</span>
+        </div>
+        <div id="iphone-cart">
+            <img src="iphone hồng.jpg" class="pro-cart">
+            <input type="number" value="0" min="0" class="amount" id="iphone-cart-pro" onchange="amount()">
+            <input type="button" class="increase" value="+" onclick="cartplus(2)">
+            <input type="button" class="decrease" value="-" onclick="cartderc(2)">
+            <div id="iphone-cal" class="pro-cal">
+                <p>33.590.000/Sản Phẩm</p>
+
+            </div>
+            <span onclick="cartprooff(2)">X</span>
+        </div>
+        <div id="oppo-cart">
+            <img src="op tím.jpg" class="pro-cart">
+            <input type="number" value="0" min="0" class="amount" id="oppo-cart-pro" onchange="amount()">
+            <input type="button" class="increase" value="+" onclick="cartplus(3)">
+            <input type="button" class="decrease" value="-" onclick="cartderc(3)">
+            <div id="oppo-cal" class="pro-cal">
+                <p>4.690.000/Sản Phẩm</p>
+
+            </div>
+            <span onclick="cartprooff(3)">X</span>
+        </div>
+        <div class="calculator">
+            <h3>THÀNH TIỀN:</h3>
+            <div class="count" id="count-all">
+                0
+            </div>
+        </div>
+        <input type="button" id="buy-icon" name="buy" value="THANH TOÁN" onclick="formbuy()">
+    </div>
+
+    <div id="form-buy">
+
+
+        <form action="" onsubmit="return kiemtra()">
+            <table class="table-form" border="1">
+                <tr>
+                    <td colspan="2">
+                        <h1 align="center">ĐẶT HÀNG</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Họ tên người mua hàng</td>
+                    <td>
+                        <input type="text" name="hoten" id="hoten">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Giới tính</td>
+                    <td>
+                        <select name="gioi-tinh" id="gioi-tinh">
+                            <option value="0">---Giới tính----</option>
+                            <option value="Nam">Nam</option>
+                            <option value="Nu">nữ</option>
+                            <option value="Khac">Khác*</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Đơn giá</td>
+                    <td>
+                        <input type="number" name="gia" id="form-price" readonly>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ giao hàng</td>
+                    <td><input type="text" id="dia-chi"></td>
+                </tr>
+                <tr>
+                    <td>Số điện thoại</td>
+                    <td>
+                        <input type="text" name="sodienthoai" id="sodienthoai">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="button" value="Đặt mua" class="form-submit" onclick="kiemtra()">
+                    </td>
+                </tr>
+
+            </table>
+            <input type="submit" class="form-turn-off" onclick="formoff()">
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
